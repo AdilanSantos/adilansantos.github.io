@@ -1,2 +1,2 @@
-# portfolio-AdilanSantos
-Porfolio criado com HTML, JS e CSS
+# Portfolio Adilan Santos
+Porfolio criado com HTML, JavaScript e CSS.
