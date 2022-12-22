@@ -530,6 +530,8 @@ footer span:hover {
 
     .sobre-mim-foto{
         max-width: 80%;
+        border-left: none;
+        border-bottom: 5px var(--primary);
     }
 
     .sobre-mim-descri{
