@@ -528,16 +528,16 @@ footer span:hover {
         align-items: center;
     }
 
-    .sobre-mim-foto{
+    .sobre-mim_foto{
         max-width: 80%;
     }
 
-    .sobre-mim-foto img{
+    .sobre-mim_foto img{
         border-left: none;
         border-bottom: 5px solid var(--primary);
     }
 
-    .sobre-mim-descri{
+    .sobre-mim_descri{
         max-width: 80%;
     }
 
