@@ -615,11 +615,11 @@ footer span:hover {
 
 @media (max-width: 460px){
     .hero-text h1{
-        font-size: 1.8rem;
+        font-size: 2.1rem;
     }
 
     .hero-text p{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .button{
