@@ -555,7 +555,7 @@ footer span:hover {
         border-bottom: 3px var(--primary);
     }
 
-    .exp-lugares ul li.active{
+    .exp-lugares ul li.empresa.active{
         background-color: var(--darkSecondary);
         border-left: none;
         border-bottom: 3px solid var(--primary);
