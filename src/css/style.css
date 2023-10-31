@@ -720,7 +720,7 @@ nav .hamburger:before{
         border-radius: 50%;
         left: -35%;
         top: 40%;
-        background: linear-gradient(45deg, var(--light-Blue),#8ecae6) ;
+        background: linear-gradient(45deg, var(--dark-Blue2),#8ecae6) ;
         animation: object1 6s linear infinite;
     }
     
@@ -740,7 +740,7 @@ nav .hamburger:before{
         border-radius: 50%;
         left: 65%;
         top: 12%;
-        background: linear-gradient(45deg, var(--light-Blue),#8ecae6) ;
+        background: linear-gradient(-75deg, var(--dark-Blue2),#8ecae6) ;
         animation: object2 6s linear infinite;
     }
     
