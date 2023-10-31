@@ -272,20 +272,17 @@ nav .hamburger:before{
 
 /* ABOUT */
 
-#section-about{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: var(--white);
-}
-
 .container-about{
     width: 100%;
     max-width: 0 auto;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 0 20px;
     overflow: hidden;
-    
+    position: relative  ;
+    display: flex;
+    align-items: center;
+    background: var(--white);
 }
 
 .container-about .grid{
@@ -359,7 +356,7 @@ nav .hamburger:before{
     width: 450px;
     border-radius: 50%;
     right: -12%;
-    top: 140%;
+    top: 40%;
     background: linear-gradient(45deg, var(--light-Blue),#8ecae6) ;
     animation: object-about 6s linear infinite;
 }
@@ -367,7 +364,7 @@ nav .hamburger:before{
 @keyframes object-about{
     50%{
         right: -13%;
-        top: 142%;
+        top: 41%;
     }
 }
 
@@ -814,7 +811,8 @@ nav .hamburger:before{
 
     .container-about{
         height: 100%;
-        width: 90%;
+        width: 100%;
+        overflow: hidden;
     }
 
     .container-about .grid{
@@ -849,7 +847,7 @@ nav .hamburger:before{
         top: 25px;
     }
 
-    .container-about .grid::before{
+    .container-about .{
         position: absolute;
         content: '';
         height: 350px;
