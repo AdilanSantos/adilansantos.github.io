@@ -702,17 +702,6 @@ nav .hamburger:before{
         transform: translateX(0);
         pointer-events: all;
     }
-
-    @keyframes navLinkFade {
-        from {
-          opacity: 0;
-          transform: translateX(50px);
-        }
-        to {
-          opacity: 1;
-          transform: translateX(0);
-        }
-      }
     /*
     /* MENU MOBILE */
 
@@ -720,7 +709,9 @@ nav .hamburger:before{
     .container-main .cols1{
         display: none;
     }
-
+    .container-main .wrapper{
+        height: calc(100vh + 80px);
+    }
     .container-main .wrapper::before{
         position: absolute;
         content: '';
