@@ -83,4 +83,13 @@ export const education = {
 //   repo: 'https://github.com/adilansantos/nome-do-projeto',
 //   demo: 'https://...',
 // },
-export const projects = []
+export const projects = [
+  {
+    title: 'Event Ingestion API',
+    description:
+      'API FastAPI que recebe webhooks com idempotência no PostgreSQL, fila RabbitMQ, worker com retentativas e dead-letter queue.',
+    stack: ['Python', 'FastAPI', 'PostgreSQL', 'RabbitMQ', 'Docker'],
+    repo: 'https://github.com/AdilanSantos/event-queue',
+    demo: null,
+  },
+]
