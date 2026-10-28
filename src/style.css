@@ -482,8 +482,8 @@ footer span:hover {
 }
 
 .hero-photo {
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 320px;
   object-fit: cover;
   object-position: 50% 25%;
   border-radius: 50%;
