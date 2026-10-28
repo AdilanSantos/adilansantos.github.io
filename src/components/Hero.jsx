@@ -1,4 +1,8 @@
 import { profile } from '../data/content'
+import fotoPerfil from '../images/foto-linkedin.jpg'
+
+// dentro do componente:
+
 
 export default function Hero() {
   return (
@@ -19,7 +23,7 @@ export default function Hero() {
             <a className="btn" href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
-        <div className="avatar" aria-hidden="true">{profile.initials}</div>
+       <img src={fotoPerfil} alt={profile.name} className="hero-photo" />
       </div>
     </section>
   )
