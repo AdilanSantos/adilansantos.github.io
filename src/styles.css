@@ -142,6 +142,26 @@ a:focus-visible {
               0 14px 36px rgba(177, 133, 255, 0.4);
 }
 
+.project-card { position: relative; cursor: pointer; }
+
+.project-link {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  z-index: 0;
+}
+
+.project-card .links,
+.project-card h3,
+.project-card p,
+.project-card .tags {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.project-card .links a { pointer-events: auto; }
+
 @media (prefers-reduced-motion: reduce) {
   .coin { transition: none; }
 }

@@ -8,6 +8,13 @@ export default function Projects() {
         <div className="skills-grid">
           {projects.map((p) => (
             <article className="card project-card" key={p.title}>
+              <a
+                href={p.repo}
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+                aria-label={`Ver código de ${p.title}`}
+              />
               <h3>{p.title}</h3>
               <p className="muted">{p.description}</p>
               <ul className="tags">
