@@ -498,6 +498,25 @@ footer span:hover {
     border-radius: 5px;
 }
 
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:focus-visible,
+a:focus-visible {
+  outline: 2px solid #b185ff;
+  outline-offset: 3px;
+}
+
+.btn:not(.primary):hover {
+  background: rgba(177, 133, 255, 0.12);
+  border-color: #b185ff;
+}
+
+.btn {
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
 /* Reponsivo */
 
 @media(max-width: 1325px){

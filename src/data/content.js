@@ -87,7 +87,7 @@ export const projects = [
   {
     title: 'Event Ingestion API',
     description:
-      'API FastAPI que recebe webhooks com idempotência no PostgreSQL, fila RabbitMQ, worker com retentativas e dead-letter queue.',
+  'Evita perda e duplicidade de eventos de webhooks: recebimento idempotente no PostgreSQL, fila RabbitMQ, retentativas com backoff e dead-letter queue para falhas definitivas.',
     stack: ['Python', 'FastAPI', 'PostgreSQL', 'RabbitMQ', 'Docker'],
     repo: 'https://github.com/AdilanSantos/event-queue',
     demo: null,
