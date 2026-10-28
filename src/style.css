@@ -481,13 +481,6 @@ footer span:hover {
     color: rgba(101, 24, 180, 1)
 }
 
-.hero-photo {
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
-  object-position: 50% 25%;
-  border-radius: 50%;
-}
 /* Scrollbar*/
 
 ::-webkit-scrollbar{
