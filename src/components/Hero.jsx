@@ -1,5 +1,5 @@
 import { profile } from '../data/content'
-import fotoPerfil from '/src/images/foto-linkedin.jpg'
+import fotoPerfil from '/src/images/foto-linkedin.png'
 
 // dentro do componente:
 
